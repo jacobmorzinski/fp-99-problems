@@ -1,20 +1,12 @@
-<a
-href="http://sites.google.com/site/prologsite/prolog-problems/4/solutions-4"
-rel="nofollow"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif"
-data-border="0" /></a>
 
-  
-**Solutions can be found <a
-href="http://sites.google.com/site/prologsite/prolog-problems/4/solutions-4"
-rel="nofollow">here</a>.  
-**  
+![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+[here](http://sites.google.com/site/prologsite/prolog-problems/4/solutions-4).**
 
 <a
 href="https://sites.google.com/site/prologsite/prolog-problems/4/p67.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264934442609/prolog-problems/4/p67.gif"
-data-border="0" /></a>
+/></a>
 
 **A binary tree is either empty or it is composed of a root element and
 two successors, which are binary trees themselves.**  
@@ -218,7 +210,7 @@ below.
 href="https://sites.google.com/site/prologsite/prolog-problems/4/p64.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264933989828/prolog-problems/4/p64.gif"
-data-border="0" /></a>
+/></a>
 
   
 
@@ -252,7 +244,7 @@ Test your predicate in an appropriate way.
 href="https://sites.google.com/site/prologsite/prolog-problems/4/p65.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264934255598/prolog-problems/4/p65.gif"
-data-border="0" /></a>
+/></a>
 
   
 
@@ -272,7 +264,7 @@ an appropriate way.
 href="https://sites.google.com/site/prologsite/prolog-problems/4/p66.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264934330462/prolog-problems/4/p66.gif"
-data-border="0" /></a>
+/></a>
 
   
 
@@ -299,7 +291,7 @@ Which layout do you like most?
 href="https://sites.google.com/site/prologsite/prolog-problems/4/p67.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264934442609/prolog-problems/4/p67.gif"
-data-border="0" /></a>
+/></a>
 
 Somebody represents binary trees as strings of the following type (see
 example):  

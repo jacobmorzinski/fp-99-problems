@@ -1,11 +1,7 @@
-[<img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif"
-data-border="0" />](https://sites.google.com/site/prologsite/prolog-problems/6/solutions-6)
 
-  
-**Solutions can be found
-[here](https://sites.google.com/site/prologsite/prolog-problems/6/solutions-6).  
-**  
+![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+[here](https://sites.google.com/site/prologsite/prolog-problems/6/solutions-6).**
+
 **A preliminary remark: The vocabulary in graph theory varies
 considerably. Some authors use the same word with different meanings.
 Some authors use different words to mean the same thing. I hope that our
@@ -19,7 +15,7 @@ edge is a pair of nodes.**
 href="https://sites.google.com/site/prologsite/prolog-problems/6/graph1.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264948248705/prolog-problems/6/graph1.gif"
-data-border="0" /></a>
+/></a>
 
 There are several ways to represent graphs in Prolog.  
   
@@ -77,7 +73,7 @@ terms, as in d(3.75,blue) instead of d in the example).
 href="https://sites.google.com/site/prologsite/prolog-problems/6/graph2.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264948667063/prolog-problems/6/graph2.gif"
-data-border="0" /></a>
+/></a>
 
   
 When the edges are *directed* we call them *arcs*. These are represented
@@ -108,7 +104,7 @@ is a graph or a digraph.
 href="https://sites.google.com/site/prologsite/prolog-problems/6/graph3.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264948803128/prolog-problems/6/graph3.gif"
-data-border="0" /></a>
+/></a>
 
 Finally, graphs and digraphs may have additional information attached to
 nodes and edges (arcs). For the nodes, this is no problem, as we can
@@ -175,7 +171,7 @@ via backtracking.
 href="https://sites.google.com/site/prologsite/prolog-problems/6/p83.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264949059996/prolog-problems/6/p83.gif"
-data-border="0" /></a>
+/></a>
 
   
 
@@ -196,7 +192,7 @@ five-minutes tasks!
 href="https://sites.google.com/site/prologsite/prolog-problems/6/p84.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264949163407/prolog-problems/6/p84.gif"
-data-border="0" /></a>
+/></a>
 
   
 

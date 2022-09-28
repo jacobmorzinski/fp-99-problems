@@ -1,11 +1,6 @@
-[<img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif"
-data-border="0" />](https://sites.google.com/site/prologsite/prolog-problems/2/solutions-2)
 
-  
-**Solutions can be found
-[here](https://sites.google.com/site/prologsite/prolog-problems/2/solutions-2).  
-**
+![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+[here](https://sites.google.com/site/prologsite/prolog-problems/2/solutions-2).**
 
 **2.01 (\*\*) Determine whether a given integer number is prime.**  
 Example:  

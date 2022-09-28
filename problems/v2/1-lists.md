@@ -1,14 +1,6 @@
-[<img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif"
-style="margin:5px 10px 0pt 0pt;display:inline;float:left"
-data-border="0" />](https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1)
 
-  
-
-**Solutions can be found
-[here](https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1).  
-  
-**
+![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+[here](https://sites.google.com/site/prologsite/prolog-problems/1/solutions-1).**
 
 **A list is either empty or it is composed of a first element (head) and
 a tail, which is a list itself.** In Prolog we represent the empty list

@@ -1,9 +1,6 @@
-<a
-href="http://sites.google.com/site/prologsite/prolog-problems/5/solutions-5"
-rel="nofollow"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif"
-data-border="0" /></a>
 
+![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+[here](http://sites.google.com/site/prologsite/prolog-problems/5/solutions-5).**
   
 **Solutions can be found <a
 href="http://sites.google.com/site/prologsite/prolog-problems/5/solutions-5"
@@ -14,7 +11,7 @@ rel="nofollow">here</a>.
 href="https://sites.google.com/site/prologsite/prolog-problems/5/p70.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264946214751/prolog-problems/5/p70.gif"
-data-border="0" /></a>
+/></a>
 
 A multiway tree is composed of a root element and a (possibly empty) set
 of successors which are multiway trees themselves. A multiway tree is
@@ -52,7 +49,7 @@ Write another version of the predicate that allows for a flow pattern
 href="https://sites.google.com/site/prologsite/prolog-problems/5/p70.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264946214751/prolog-problems/5/p70.gif"
-data-border="0" /></a>
+/></a>
 
 We suppose that the nodes of a multiway tree contain single characters.
 In the depth-first order sequence of its nodes, a special character ^
@@ -104,7 +101,7 @@ in Lisp.
 href="https://sites.google.com/site/prologsite/prolog-problems/5/p73.png?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264946557086/prolog-problems/5/p73.png"
-data-border="0" /></a>
+/></a>
 
   
 Note that in the "lispy" notation a node with successors (children) in

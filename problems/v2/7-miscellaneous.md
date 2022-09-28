@@ -1,16 +1,7 @@
-<a
-href="http://sites.google.com/site/prologsite/prolog-problems/7/solutions-7"
-rel="nofollow"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif"
-data-border="0" /></a>
 
-  
-**Solutions can be found <a
-href="http://sites.google.com/site/prologsite/prolog-problems/7/solutions-7"
-rel="nofollow">here</a>.  
-**
+![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+[here](http://sites.google.com/site/prologsite/prolog-problems/7/solutions-7).**
 
-  
   
 **7.01 (\*\*) Eight queens problem**  
   
@@ -49,7 +40,7 @@ know whether the problem has been solved since.
 href="https://sites.google.com/site/prologsite/prolog-problems/7/p92a.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264955485190/prolog-problems/7/p92a.gif"
-data-border="0" /></a>
+/></a>
 
   
 Anyway, the puzzle goes like this: Given a tree with N nodes (and hence
@@ -69,7 +60,7 @@ always a solution!
 href="https://sites.google.com/site/prologsite/prolog-problems/7/p92b.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264955528417/prolog-problems/7/p92b.gif"
-data-border="0" /></a>
+/></a>
 
   
 Write a predicate that calculates a numbering scheme for a given tree.
@@ -102,7 +93,7 @@ words.
 href="https://sites.google.com/site/prologsite/prolog-problems/7/p96.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264955783053/prolog-problems/7/p96.gif"
-data-border="0" /></a>
+/></a>
 
   
 
@@ -201,7 +192,7 @@ set of words. The problem is to place the words into the framework.
 href="https://sites.google.com/site/prologsite/prolog-problems/7/p99.gif?attredirects=0"
 data-imageanchor="1"><img
 src="https://sites.google.com/site/prologsite/_/rsrc/1264956149766/prolog-problems/7/p99.gif"
-data-border="0" /></a>
+/></a>
 
   
 

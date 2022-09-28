@@ -1,14 +1,6 @@
-<a
-href="http://sites.google.com/site/prologsite/prolog-problems/3/solutions-3"
-rel="nofollow"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif"
-data-border="0" /></a>
 
-  
-**Solutions can be found <a
-href="http://sites.google.com/site/prologsite/prolog-problems/3/solutions-3"
-rel="nofollow">here</a>.  
-**
+![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+[here](https://sites.google.com/site/prologsite/prolog-problems/3/solutions-3).**
 
 **3.01 (\*\*) Truth tables for logical expressions.**  
 Define predicates and/2, or/2, nand/2, nor/2, xor/2, impl/2 and equ/2

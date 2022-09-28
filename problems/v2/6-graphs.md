@@ -1,36 +1,30 @@
 
-![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif) **Solutions can be found
+![](prolog-program.gif) **Solutions can be found
 [here](https://sites.google.com/site/prologsite/prolog-problems/6/solutions-6).**
 
 **A preliminary remark: The vocabulary in graph theory varies
 considerably. Some authors use the same word with different meanings.
 Some authors use different words to mean the same thing. I hope that our
-definitions are free of contradictions.**  
-**  
-A graph is defined as a set of *nodes* and a set of *edges*, where each
-edge is a pair of nodes.**  
-  
+definitions are free of contradictions.**
 
-<a
-href="https://sites.google.com/site/prologsite/prolog-problems/6/graph1.gif?attredirects=0"
-data-imageanchor="1"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264948248705/prolog-problems/6/graph1.gif"
-/></a>
+**A graph is defined as a set of *nodes* and a set of *edges*, where each
+edge is a pair of nodes.**
 
-There are several ways to represent graphs in Prolog.  
-  
+![](graph1.gif)
+
+There are several ways to represent graphs in Prolog.
+
 One method is to represent each edge separately as one clause (fact). In
 this form, the graph depicted opposite is represented as the following
-predicate:  
-  
+predicate:
 
-        edge(h,g).
-        edge(k,f).
-        edge(f,b).    
-        ...
+    edge(h,g).
+    edge(k,f).
+    edge(f,b).
+    ...
 
-We call this ***edge-clause form***.  
-  
+We call this ***edge-clause form***.
+
 Obviously, isolated nodes cannot be represented. Another method is to
 represent the whole graph as one data object. According to the
 definition of the graph as a pair of two sets (nodes and edges), we may
@@ -43,8 +37,8 @@ sorted, they are really *sets*, without duplicated elements. Each edge
 appears only once in the edge list; i.e. an edge from a node x to
 another node y is represented as e(x,y), the term e(y,x) is not present.
 **The graph-term form is our default representation.** In SWI-Prolog
-there are predefined predicates to work with sets.  
-  
+there are predefined predicates to work with sets.
+
 A third representation method is to associate with each node the set of
 nodes that are adjacent to that node. We call this the ***adjacency-list
 form***. In our example:
@@ -58,7 +52,7 @@ We can define a more compact and "human-friendly" notation as follows: A
 graph is represented by a list of atoms and terms of the type X-Y (i.e.
 functor '-' and arity 2). The atoms stand for isolated nodes, the X-Y
 terms describe edges. If an X appears as an endpoint of an edge, it is
-automatically defined as a node. Our example could be written as:  
+automatically defined as a node. Our example could be written as:
 
     [b-c, f-c, g-h, d, f-b, k-f, h-g]
 
@@ -66,21 +60,15 @@ We call this the ***human-friendly form***. As the example shows, the
 list does not have to be sorted and may even contain the same edge
 multiple times. Notice the isolated node d. (Actually, isolated nodes do
 not even have to be atoms in the Prolog sense, they can be compound
-terms, as in d(3.75,blue) instead of d in the example).  
-  
+terms, as in d(3.75,blue) instead of d in the example).
 
-<a
-href="https://sites.google.com/site/prologsite/prolog-problems/6/graph2.gif?attredirects=0"
-data-imageanchor="1"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264948667063/prolog-problems/6/graph2.gif"
-/></a>
+![](graph2.gif)
 
-  
 When the edges are *directed* we call them *arcs*. These are represented
 by *ordered* pairs. Such a graph is called **directed graph** (or
 digraph, for short). To represent a directed graph, the forms discussed
 above are slightly modified. The example graph opposite is represented
-as follows:  
+as follows:
 
 *Arc-clause form*  
 arc(s,u).  
@@ -98,27 +86,19 @@ is a graph or a digraph.
 *Human-friendly form*  
 \[s \> r, t, u \> r, s \> u, u \> s, v \> u\]
 
-  
-
-<a
-href="https://sites.google.com/site/prologsite/prolog-problems/6/graph3.gif?attredirects=0"
-data-imageanchor="1"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264948803128/prolog-problems/6/graph3.gif"
-/></a>
+![](graph3.gif)
 
 Finally, graphs and digraphs may have additional information attached to
 nodes and edges (arcs). For the nodes, this is no problem, as we can
 easily replace the single character identifiers with arbitrary compound
 terms, such as city('London',4711). On the other hand, for edges we have
 to extend our notation. Graphs with additional information attached to
-edges are called **labeled graphs**.  
+edges are called **labeled graphs**.
 
 *Arc-clause form*  
-    arc(m,q,7).  
-
-    arc(p,q,9).  
-
-    arc(p,m,5).
+arc(m,q,7).  
+arc(p,q,9).  
+arc(p,m,5).
 
 *Graph-term form*  
 digraph(\[k,m,p,q\],\[a(m,p,7),a(p,m,5),a(p,q,9)\])
@@ -134,46 +114,31 @@ Notice how the edge information has been packed into a term with functor
 The notation for labeled graphs can also be used for so-called
 **multi-graphs**, where more than one edge (or arc) are allowed between
 two given nodes.  
-  
 
-**6.01 (\*\*\*) Conversions**  
-  
+**6.01 (\*\*\*) Conversions**
 
 Write predicates to convert between the different graph representations.
 With these predicates, all representations are equivalent; i.e. for the
 following problems you can always freely pick the most convenient form.
 The reason this problem is rated (\*\*\*) is not because it's
 particularly difficult, but because it's a lot of work to deal with all
-the special cases.  
-  
+the special cases.
 
-**6.02 (\*\*) Path from one node to another one**  
-  
+**6.02 (\*\*) Path from one node to another one**
 
 Write a predicate path(G,A,B,P) to find an acyclic path P from node A to
 node B in the graph G. The predicate should return all paths via
-backtracking.  
-  
+backtracking.
 
-**6.03 (\*) Cycle from a given node**  
-  
+**6.03 (\*) Cycle from a given node**
 
 Write a predicate cycle(G,A,P) to find a closed path (cycle) P starting
 at a given node A in the graph G. The predicate should return all cycles
-via backtracking.  
-  
+via backtracking.
 
 **6.04 (\*\*) Construct all spanning trees**
 
-  
-
-<a
-href="https://sites.google.com/site/prologsite/prolog-problems/6/p83.gif?attredirects=0"
-data-imageanchor="1"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264949059996/prolog-problems/6/p83.gif"
-/></a>
-
-  
+![](p83.gif)
 
 Write a predicate s_tree(Graph,Tree) to construct (by backtracking) all
 spanning trees of a given graph. With this predicate, find out how many
@@ -181,89 +146,61 @@ spanning trees there are for the graph depicted to the left. The data of
 this example graph can be found in the file p6_04.dat. When you have a
 correct solution for the s_tree/2 predicate, use it to define two other
 useful predicates: is_tree(Graph) and is_connected(Graph). Both are
-five-minutes tasks!  
-  
-
-  
+five-minutes tasks!
 
 **6.05 (\*\*) Construct the minimal spanning tree**
 
-<a
-href="https://sites.google.com/site/prologsite/prolog-problems/6/p84.gif?attredirects=0"
-data-imageanchor="1"><img
-src="https://sites.google.com/site/prologsite/_/rsrc/1264949163407/prolog-problems/6/p84.gif"
-/></a>
-
-  
+![](p84.gif)
 
 Write a predicate ms_tree(Graph,Tree,Sum) to construct the minimal
 spanning tree of a given labelled graph. Hint: Use the algorithm of
 Prim. A small modification of the solution of 6.04 does the trick. The
 data of the example graph to the right can be found in the file
-p6_05.dat.  
-  
+p6_05.dat.
 
-  
-
-**6.06 (\*\*) Graph isomorphism**  
-  
+**6.06 (\*\*) Graph isomorphism**
 
 Two graphs G1(N1,E1) and G2(N2,E2) are isomorphic if there is a
 bijection f: N1 -\> N2 such that for any nodes X,Y of N1, X and Y are
-adjacent if and only if f(X) and f(Y) are adjacent.  
-  
+adjacent if and only if f(X) and f(Y) are adjacent.
+
 Write a predicate that determines whether two graphs are isomorphic.
 Hint: Use an open-ended list to represent the function f.
 
-<!-- -->
-
-**6.07 (\*\*) Node degree and graph coloration**  
-  
+**6.07 (\*\*) Node degree and graph coloration**
 
 **a)** Write a predicate degree(Graph,Node,Deg) that determines the
-degree of a given node.  
-  
-**b)** Write a predicate that generates a list of all nodes of a graph
-sorted according to decreasing degree.  
-  
-**c)** Use Welch-Powell's algorithm to paint the nodes of a graph in
-such a way that adjacent nodes have different colors.  
-  
+degree of a given node.
 
-**6.08 (\*\*) Depth-first order graph traversal  
-**  
-  
+**b)** Write a predicate that generates a list of all nodes of a graph
+sorted according to decreasing degree.
+
+**c)** Use Welch-Powell's algorithm to paint the nodes of a graph in
+such a way that adjacent nodes have different colors.
+
+**6.08 (\*\*) Depth-first order graph traversal**
 
 Write a predicate that generates a depth-first order graph traversal
 sequence. The starting point should be specified, and the output should
 be a list of nodes that are reachable from this starting point (in
-depth-first order).  
-  
+depth-first order).
 
-**6.09 (\*\*) Connected components**  
-  
+**6.09 (\*\*) Connected components**
 
-Write a predicate that splits a graph into its connected components.  
-  
+Write a predicate that splits a graph into its connected components.
 
-**6.10 (\*\*) Bipartite graphs**  
-  
+**6.10 (\*\*) Bipartite graphs**
 
 Write a predicate that finds out whether a given graph is bipartite.
 
-   
-
-**6.11 (\*\*\*) Generate K-regular simple graphs with N nodes**  
-  
+**6.11 (\*\*\*) Generate K-regular simple graphs with N nodes**
 
 In a K-regular graph all nodes have a degree of K; i.e. the number of
 edges incident in each node is K. How many (non-isomorphic!) 3-regular
-graphs with 6 nodes are there?  
+graphs with 6 nodes are there?
 
-  
+See also the table of results in p6_11.txt.
 
-See also the table of results in p6_11.txt.  
-  
 
 Subpages
 

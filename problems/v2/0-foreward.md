@@ -31,7 +31,7 @@ shouldn't take you more than 30-90 minutes to solve them. Problems
 marked with three asterisks (\*\*\*) are more difficult. You may need
 more time (i.e. a few hours or more) to find a good solution.
 
-![](https://sites.google.com/site/prologsite/_/rsrc/1264864357592/home/prolog-program.gif)
+![](prolog-program.gif)
 
 
 You can find **solutions** of the problems at the end of each section.

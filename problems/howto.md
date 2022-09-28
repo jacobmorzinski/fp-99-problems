@@ -44,6 +44,7 @@ download-and-convert "https://sites.google.com/site/prologsite/prolog-problems/5
 download-and-convert "https://sites.google.com/site/prologsite/prolog-problems/6" "6-graphs"
 download-and-convert "https://sites.google.com/site/prologsite/prolog-problems/7" "7-miscellaneous"
 
-
+# download 0-foreward.html by hand, then:
+pandoc.exe "0-foreward.html" -f html-native_divs-native_spans -o "0-foreward.md" -t gfm
 
 ```
